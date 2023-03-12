@@ -1,0 +1,577 @@
+/* ---------------------------------------------- */
+/* 헤더                                            */
+/* ---------------------------------------------- */
+.header{
+  position: absolute;
+  width: 1920px;
+  height: 117px;
+  left: 0px;
+  top: 0px;
+}
+
+.CategoryButton{
+  position: absolute;
+  width: 110px;
+  height: 116px;
+  left: 450px;
+  top: 0px;
+
+  /* blue/600 */
+  background: #0074E9;
+
+  border-style: none;
+}
+
+.CategoryButton img{ 
+
+  position:absolute;
+  left: 36.36%;
+  right: 36.36%;
+  top: 25.86%;
+  bottom: 48.28%;
+  height: 30px;
+  width: 30px;
+
+}
+
+.HamburgerText{
+  position: absolute;
+  left: 30%;
+  right: 29.09%;
+  top: 62.07%;
+  bottom: 25.76%;
+  width: 50px;
+
+  /* Text/Regular/12 */
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  /* identical to box height, or 14px */
+
+
+  /* Grayscale/white/white */
+  color: #FFFFFF;
+}
+
+
+/* ---------------------------------------------- */
+/* 내비게이션                                        */
+/* ---------------------------------------------- */
+.navigation{
+  position: absolute;
+  width: 1020px;
+  height: 520px;
+  left: 450px;
+  top: 117px;
+}
+
+.navigation__inner{
+  display: flex;
+
+  position: absolute;
+  width: 540px;
+  height: 500px;
+  left: 0px;
+  top: 0px;
+}
+
+.inner{
+  /* position: absolute; */
+  display: flex;
+
+  width: 180px;
+  height: 500px;
+
+  padding: 0px 0px;
+  margin: 0px 0px;
+  /* Shadow / 100 */
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+#CategoryNavigationItem16{
+  position: absolute;
+  width: 130px;
+  height: 463px;
+  left: 5px;
+  top: 8px;
+
+  padding: 0px;
+
+  list-style: none;
+
+  /* Text/Bold/12 */
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+#CategoryNavigationItem16 li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 0px 1px 20px;
+  gap: 4px;
+
+  width: 170px;
+  height: 30px;
+  /* position: absolute; */
+  left: 2.78%;
+  right: 2.78%;
+}
+
+#CategoryNavigationItem16 li:nth-child(1){
+  color: blue;
+}
+
+#navigation__list{
+  position: absolute;
+  width: 130px;
+  height: 90px;
+  left: 5px;
+  top: 8px;
+
+  padding: 0px;
+
+  list-style: none;
+
+   /* Text/Bold/12 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 120%;
+
+  }
+
+#navigation__list li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1px 0px 1px 20px;
+  gap: 4px;
+
+  width: 170px;
+  height: 30px;
+  /* position: absolute; */
+  left: 2.78%;
+  right: 2.78%;
+}
+
+#navigation__list li img{
+  position: absolute;
+  width: 7px;
+  height: 10px;
+  left:140px;
+  top: 10.5px;
+}
+
+#navigation__list li:nth-child(1){
+  color: blue;
+}
+/* ---------------------------------------------- */
+/* 메인 콘텐츠                                       */
+/* ---------------------------------------------- */
+/* 메인 콘텐츠 영역의 최소 높이 설정 */
+.main{
+  min-height: 52rem;
+}
+
+
+/* ---------------------------------------------- */
+/* 푸터                                            */
+/* ---------------------------------------------- */
+.footer{
+  position: absolute;
+  width: 1920px;
+  height: 349px;
+  left: 0px;
+  top: 675px;
+}
+
+.CustomerGuide{
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  /* gray/200 */
+
+  background: #E7E7E7;
+}
+
+.CustomerGuideList{
+  position: absolute;
+  height: 35px;
+  width: 1306px;
+  left: 457px;
+  top: 3px;
+}
+
+.CustomerGuideItem{
+    display: flex;
+
+    height: 35px;
+    width: 1306px;
+    left: 457px;
+    top: 3px;
+    margin: 0px;
+    padding: 0px;
+
+    list-style: none;
+
+    background-color: yellowgreen;
+}
+
+.CustomerGuideItem li{
+  /* Text/Regular/12 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+
+  text-align: center;
+  padding-right: 0px;
+
+  color: #4E4E4E;
+}
+
+.CustomerGuideItem li span{
+  /* position: absolute; */
+  /* left: 2px;
+  right: 92.64%;
+  top: 31.43%;
+  bottom: 34.29%; */
+}
+
+
+.CustomerGuideItem li:nth-child(1), li:nth-child(3), li:nth-child(4), li:nth-child(9), li:nth-child(10){
+
+
+  height: 25px;
+  width: 121px;
+  left: 254px;
+  top: 5px;
+  border-radius: 0px;
+  padding: 5px 0px 6px 0px;
+/* 
+  display:flex;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+.CustomerGuideItem li:nth-child(2), li:nth-child(5),li:nth-child(6),li:nth-child(8){
+    height: 25px;
+    width: 148px;
+    left: 342px;
+    top: 5px;
+    padding: 5px 0px 6px 0px;
+
+    display:flex;
+    /* align-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.CustomerGuideItem li:nth-child(7){
+    height: 25px;
+    width: 218px;
+    left: 254px;
+    top: 5px;
+    border-radius: 0px;
+    padding: 5px 0px 6px 0px;
+
+    display:flex;
+    /* align-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+}
+
+.CoupangInformation{
+  position: absolute;
+  width: 1920px;
+  height: 207px;
+  left: 0px;
+  top: 40px;
+
+  /* white */
+
+  background: #FFFFFF;
+}
+
+#CoupangInformation{
+  position: absolute;
+  width: 1200px;
+  height: 143px;
+  left: 360px;
+  top: 32px;
+}
+
+.Logo{
+  position: absolute;
+  width: 176px;
+  height: 40px;
+  left: 0px;
+  top: 0px;
+}
+
+.CoupangInformationList{
+  position: absolute;
+  width: 290px;
+  height: 160px;
+  left: 239px;
+  top: 0px;
+}
+
+.CoupangInformationList ul{
+  width: 290px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  list-style: none;
+
+  /* Text/Regular/16 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+}
+
+.CoupangInformationList ul li{
+  /* padding-bottom: 10px; */
+
+  margin-right: 0px;
+  padding: 5px 0;
+} 
+
+.CustomerCenter{
+  position: absolute;
+  width: 323px;
+  height: 143px;
+  left: 591px;
+  top: 0px;
+}
+
+.CustomerCenterHead{
+  display: flex;
+
+  position: relative;
+  width: 293px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+}
+
+#CustomerCenterHead1{
+  position: absolute;
+  width: 93px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
+  /* Text/Bold/16 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #4E4E4E;
+}
+
+.Divider{
+  position: absolute;
+  width: 1px;
+  height: 12px;
+  left: 106px;
+  top: 5px;
+
+  /* gray/800 */
+
+  background: #4E4E4E;
+}
+
+#CustomerCenterHead2{
+  position: absolute;
+  height: 19px;
+  width: 198px;
+  left: 116px;
+  top: 0px;
+
+  /* Text/Regular/16 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+ 
+  color: #4E4E4E;
+
+}
+
+.Call{
+  position: absolute;
+  width: 256px;
+  height: 58px;
+  left: 0px;
+  top: 27px;
+
+  /* Text/Bold/48 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+
+  color: #4E4E4E;
+}
+
+.address{
+  position: absolute;
+  width: 220px;
+  height: 19px;
+  left: 0px;
+  top: 97px;
+
+  /* Text/Regular/16 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #4E4E4E;
+}
+
+.email{
+  position: absolute;
+  width: 204px;
+  height: 19px;
+  left: 0px;
+  top: 124px;
+
+  /* Text/Regular/16 */
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #4E4E4E;
+}
+
+.PaymentGuarantee{
+  position: absolute;
+  width: 282px;
+  height: 84px;
+  left: 946px;
+  top: 0px;
+}
+
+.PaymentGuaranteeTitle{
+  position: absolute;
+  width: 205px;
+  height: 19px;
+  left: 0px;
+  top: 0px;
+
+  margin: 0px 0px;
+
+  /* Text/Bold/16 */
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #4E4E4E;
+}
+
+.PaymentGuaranteeText{
+  position: absolute;
+  width: 305px;
+  height: 57px;
+  left: 0px;
+  top: 27px;
+  margin: 0px 0px;
+  /* Text/Regular/16 */
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+
+  color: #4E4E4E;
+}
+
+.CopyrightSNS{
+  position: absolute;
+  height: 102px;
+  left: 0px;
+  right: 0px;
+  top: 247px;
+
+  /* gray/900 */
+  background: #272727;
+}
+
+#CopyrightSNSGroup{
+  position: absolute;
+  width: 1020px;
+  height: 70px;
+  left: 450px;
+  top: 16px;
+}
+
+#CopyrightText{
+  position: absolute;
+  width: 920px;
+  height: 70px;
+  left: calc(50% - 848px/2 - 86px);
+  top: 0px;
+
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 120%;
+
+  color: #E7E7E7;
+}
+
+#SNS{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 122px;
+    height: 34px;
+    left: 970px;
+    top: 36px;
+}
+
+
+#instagram img{
+  background: linear-gradient(174.12deg, #285AEB 5.61%, #BC1888 22.32%, #CC2366 36.16%, #DC2743 51.91%, #E6683C 73.38%, #F09433 91.99%);
+  border-radius: 50%;
+}
